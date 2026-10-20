@@ -18,9 +18,10 @@ platform, the source it was built from, and what is new in it.
 
 ## Updates
 
-ShowPlayer looks for a newer release as it starts and every six hours, downloads it while no cue is on air, and offers
-it in a banner in its main window. Nothing is installed until the operator clicks **Install and restart**, and never
-with a cue on air. **Preferences > General** turns the looks off; **Check for Updates Now** looks at once. Each
+ShowPlayer looks for a newer release daily at 03:00 - and soon after it starts when it was not running then - downloads
+it while no cue is on air, and offers it in a banner in its main window. Nothing is installed until the operator clicks
+**Install and restart**, and never with a cue on air. **Preferences > General** sets how often (every hour to every 30
+days) and at what time, or turns the looks off; **Check for Updates Now** looks at once. Each
 release's `update.json` is signed, and a copy takes nothing whose signature or SHA-256 does not hold.
 
 ## Licence
